@@ -1,0 +1,22 @@
+.top__bar {
+  padding-block: 24px;
+
+  @include content-padding;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include on-tablet {
+    padding-block: 64px;
+  }
+
+  &--icons {
+    display: flex;
+    gap: 24px;
+  }
+
+  &--logo {
+    display: flex;
+  }
+}
