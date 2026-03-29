@@ -16,10 +16,10 @@
 
   &__top {
     margin-bottom: 32px;
-  }
 
-  &__content {
-    @include content-padding;
+    @include on-tablet {
+      margin-bottom: 0;
+    }
   }
 
   &__call-number {

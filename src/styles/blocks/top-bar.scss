@@ -1,7 +1,5 @@
-.top__bar {
-  padding-block: 24px;
-
-  @include content-padding;
+.top-bar {
+  padding-block: 28px;
 
   display: flex;
   justify-content: space-between;
@@ -16,7 +14,17 @@
     gap: 24px;
   }
 
-  &--logo {
+  &__logo-link {
     display: flex;
+  }
+
+  &__logo {
+    height: 16px;
+
+    @include on-tablet {
+      height: 24px;
+    }
+
+    @include hover(transform, scale(1.2));
   }
 }

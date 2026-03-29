@@ -1,0 +1,10 @@
+.product {
+  &__photo {
+    width: 100%;
+  }
+
+  &__content {
+    font-family: 'Space Mono', monospace;
+    line-height: 140%;
+  }
+}
