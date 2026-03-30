@@ -135,5 +135,10 @@
     font-weight: 400;
     line-height: 140%;
     margin: 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    &:hover {
+      color: #888;
+    }
   }
 }
